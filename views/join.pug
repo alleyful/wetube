@@ -2,10 +2,10 @@ extends layouts/main
 
 block content
     .form-container
-        from(action=routes.postJoin, method="post")
-            input(type="text", name="name", placeholder="Full Name")
-            input(type="email", name="email", placeholder="email")
-            input(type="password", name="password", placeholder="password")
-            input(type="password", name="password2", placeholder="Verify Password")
+        form(action=routes.join, method="post")
+            input(type="text", name="name", placeholder="Full Name", required=true)
+            input(type="email", name="email", placeholder="email", required=true)
+            input(type="password", name="password", placeholder="password", required=true)
+            input(type="password", name="password2", placeholder="Verify Password", required=true)
             input(type="submit", value="Join Now")
         include partials/socialLogin
