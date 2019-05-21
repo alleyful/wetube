@@ -5,6 +5,7 @@ header.header
   .header__column
     form(action=routes.search, method="get")
       input(type="text", placeholder="Search by term...", name="term")
+  .header__column
     ul
       if !user.isAuthenticated
         li
