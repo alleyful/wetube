@@ -1,16 +1,5 @@
 # WeTube
 
-cloning Youtube by alleyful
+<br/>
 
-
-## Pages:
-- [ ] Home
-- [x] Join
-- [x] Login
-- [x] Search
-- [ ] User Detail
-- [ ] Edit Profile
-- [ ] Change Password
-- [ ] Upload
-- [ ] Video Detail
-- [ ] Edit Video
+## [v1.0] First Clone Coding
