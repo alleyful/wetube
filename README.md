@@ -12,3 +12,16 @@
 
 강의 수강신청만하고 끝까지 완강을 하지 못해서 항상 생각만 하고 있었는데, 이번기회에 꼭 끝까지 완강해 보려고 합니다.
 이런 기회를 만들어 주셔서 참 감사합니다!! 
+
+<br/>
+
+### Day1
+- 오늘의 강의   
+
+    `#0 Introduction`
+    - 0.1 What are we building 
+    - 0.2 The State of Fullstack 
+    - 0.3 Websites vs Webapps 
+- 강의노트: [Day1 Note](./note/day1.md)
+
+<br/>
