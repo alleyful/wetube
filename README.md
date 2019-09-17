@@ -25,3 +25,15 @@
 - 강의노트: [Day1 Note](./note/day1.md)
 
 <br/>
+
+### Day2
+- 오늘의 강의   
+
+    `#1 NodeJS Theory`
+    - 1.0 What is NodeJS 
+    - 1.1 Use Cases for NodeJS 
+    - 1.2 Who Uses NodeJS 
+    - 1.3 Installing NodeJS 
+- 강의노트: [Day2 Note](./note/day2.md)
+
+<br/>

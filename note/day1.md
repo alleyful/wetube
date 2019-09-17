@@ -61,53 +61,53 @@
 
 ### Quiz
 
-1. What is frontend development *
-    1) Making the logic and data structures behind websites or applications
-    `2) Making the web interfaces that the user sees and interacts with`
-    3) Making native apps for mobile phones
+1. What is frontend development *   
+    1) Making the logic and data structures behind websites or applications   
+    2) `Making the web interfaces that the user sees and interacts with`   
+    3) Making native apps for mobile phones   
     
-2. What is backend development *
-    `1) Making the logic and data structures behind websites or applications`
-    2) Making the web interfaces that the user sees and interacts with
-    3) Making native apps for mobile phones
+2. What is backend development *   
+    1) `Making the logic and data structures behind websites or applications`   
+    2) Making the web interfaces that the user sees and interacts with   
+    3) Making native apps for mobile phones   
     
-3. What is the difference between a frontend and a fullstack developer? *
-    1) Frontend devs work only with servers
-    `2) Frontend devs only build what the users sees`
-    3) Frontend devs know how to interact with databases
-    4) Frontend devs can deploy servers to production
+3. What is the difference between a frontend and a fullstack developer? *   
+    1) Frontend devs work only with servers   
+    2) `Frontend devs only build what the users sees`   
+    3) Frontend devs know how to interact with databases   
+    4) Frontend devs can deploy servers to production   
     
-4. Why is fullstack development so attractive for programmers? *
-    1) Because it saves money
-    2) Because it helps when working with teams
-    `3) Because one developer can build a full service by him/her self`
-    4) Because a team of developers can work together
+4. Why is fullstack development so attractive for programmers? *   
+    1) Because it saves money   
+    2) Because it helps when working with teams   
+    3) `Because one developer can build a full service by him/her self`   
+    4) Because a team of developers can work together   
     
-5. What is the most popular language for Fullstack Developers *
-    1) Scala
-    2) C#
-    `3) JavaScript`
-    4) Java
+5. What is the most popular language for Fullstack Developers *   
+    1) Scala   
+    2) C#   
+    3) `JavaScript`   
+    4) Java   
     
-6. I can build an iOS & Android App with React Native *
-    `1) Yes`
-    2) No
+6. I can build an iOS & Android App with React Native *   
+    1) `Yes`   
+    2) No   
     
-7. What is ElectronJS *
-    1) A tool to build Windows Apps with Javascript
-    `2) A tool to build Multi Platform Desktop Apps with Web Languages`
-    3) A tool like React Native but for IoT
+7. What is ElectronJS *   
+    1) A tool to build Windows Apps with Javascript   
+    2) `A tool to build Multi Platform Desktop Apps with Web Languages`   
+    3) A tool like React Native but for IoT   
 
-8. Websites are different from Webapps because *
-    1) Websites are interactive and Webapps are not
-    `2) Webapps are interactive and Websites are not`
+8. Websites are different from Webapps because *   
+    1) Websites are interactive and Webapps are not   
+    2) `Webapps are interactive and Websites are not`   
 
-9. CNN.com is a good example of a Webapp *
-    1) Yes
-    `2) No`
+9. CNN.com is a good example of a Webapp *   
+    1) Yes   
+    2) `No`   
 
-10. Slack is a good example of a Webapp *
-    `1) Yes`
-    2) No
+10. Slack is a good example of a Webapp *   
+    1) `Yes`   
+    2) No   
 
 
