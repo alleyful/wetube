@@ -9,7 +9,7 @@
 
 <br/>
 
-[[풀스택] 유튜브 클론 코딩](https://academy.nomadcoders.co/courses/enrolled/435438)
+[[노마드 코더] 유튜브 클론 코딩](https://academy.nomadcoders.co/courses/enrolled/435438)
 
 `#0 Introduction`
 - 0.1 What are we building 
