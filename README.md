@@ -37,3 +37,14 @@
 - 강의노트: [Day2 Note](./note/day2.md)
 
 <br/>
+
+### Day3
+- 오늘의 강의   
+
+   `#2 ExpressJS`
+   - 2.0 What is a Server 
+   - 2.1 What is Express 
+   - 2.2 Installing Express with NPM 
+- 강의노트: [Day3 Note](./note/day3.md)
+
+<br/>

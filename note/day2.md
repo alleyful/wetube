@@ -9,7 +9,7 @@
 
 <br/>
 
-[[풀스택] 유튜브 클론 코딩](https://academy.nomadcoders.co/courses/enrolled/435438)
+[[노마드 코더] 유튜브 클론 코딩](https://academy.nomadcoders.co/courses/enrolled/435438)
 
 `#1 NodeJS Theory`
 - 1.0 What is NodeJS 
@@ -70,7 +70,7 @@ Node.js를 통해서 서버도 만들 수 있기 때문에 생긴 오해이다. 
 <br/>
 
 ### Node.js를 사용하기 적합한 곳
-Node.js는 넷플릭스나 우버같은 실시간 처리가 중요한 애플리케이션이나, 많은 양의 데이터 입출력이 있는 곳에서 사용하고 있다. 
+Node.js는 넷플릭스나 우버같은 실시간 처리가 중요한 애플리케이션이나, 많은 양의 데이터 입출력이 있는 곳에서 사용하고 있다.  
 이처럼 다음과 같은 경우에 Node.js를 사용할 경우 좋은 효율성을 발휘할 수 있다. 
 - 알림이나 실시간 대화같이 같이 데이터의 실시간 처리가 필요한 애플리케이션
 - 사용자의 입력과 출력이 잦은 애플리케이션
@@ -88,8 +88,8 @@ Data Science같이 복잡한 데이터를 처리하기 위해 메모리, 램, CP
 <br/>
 
 ## Reference
-[Node.js 공식 홈페이](https://nodejs.org/ko/)
-[Node.js란 무엇인가](https://geonlee.tistory.com/92)
+- [Node.js 공식 홈페이](https://nodejs.org/ko/)
+- [Node.js란 무엇인가](https://geonlee.tistory.com/92)
 
 <br/>
 
@@ -98,6 +98,8 @@ Data Science같이 복잡한 데이터를 처리하기 위해 메모리, 램, CP
 <br/>
 
 ## Homework 
+
+### Quiz
 
 1. What is NodeJS *   
     1) Javascript inside of the browser   
