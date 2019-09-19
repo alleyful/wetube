@@ -48,3 +48,16 @@
 - 강의노트: [Day3 Note](./note/day3.md)
 
 <br/>
+
+### Day4
+- 오늘의 강의   
+
+   `#2 ExpressJS`
+   - 2.3 Your First Express Server 
+   - 2.4 Handling Routes with Express 
+   - 2.5 ES6 on NodeJS using Babel 
+   - 2.6 Express Core: Middlewares 
+   - 2.7 Express Core: Middlewares part Two 
+- 강의노트: [Day4 Note](./note/day4.md)
+
+<br/>
