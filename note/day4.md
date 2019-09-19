@@ -185,4 +185,36 @@ This is the expected output:
 ### 제출:
 - CodeSandbox 템플릿 : [Day4 Boilerplate](https://codesandbox.io/s/express-blueprint-cedwx)
 - 제출 : [Day4 Homework](https://codesandbox.io/s/express-blueprint-yh60q)
+```js
+import express from "express";
+
+const app = express();
+
+// Codesanbox does not need PORT :)
+
+const handleHome = (req, res) => res.send("Home");
+
+const handleAbout = (req, res) => res.send("About Us");
+
+const handleContact = (req, res) => res.send("Contact");
+
+const handleRedirect = (req, res) => res.redirect("/");
+
+const middleware = (req, res, next) => {
+  console.log("I'm a middleware");
+  next();
+};
+
+app.use(middleware);
+
+app.get("/", handleHome);
+
+app.get("/about-us", handleAbout);
+
+app.get("/contact", handleContact);
+
+app.get("*", handleRedirect);
+
+app.listen(() => console.log(`Listening!`));
+```
 - 정답 : 
