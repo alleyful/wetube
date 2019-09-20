@@ -156,6 +156,8 @@ package.json 파일에 scripts를 추가한다. 완성된 package.json 파일은
 ## Reference
 - [Babel과 Webpack을 이용한 ES6 환경 구축](https://poiemaweb.com/es6-babel-webpack-1)
 
+<br/>
+
 ---
 
 <br/>
@@ -185,4 +187,36 @@ This is the expected output:
 ### 제출:
 - CodeSandbox 템플릿 : [Day4 Boilerplate](https://codesandbox.io/s/express-blueprint-cedwx)
 - 제출 : [Day4 Homework](https://codesandbox.io/s/express-blueprint-yh60q)
-- 정답 : 
+```js
+import express from "express";
+
+const app = express();
+
+// Codesanbox does not need PORT :)
+
+const handleHome = (req, res) => res.send("Home");
+
+const handleAbout = (req, res) => res.send("About Us");
+
+const handleContact = (req, res) => res.send("Contact");
+
+const handleRedirect = (req, res) => res.redirect("/");
+
+const middleware = (req, res, next) => {
+  console.log("I'm a middleware");
+  next();
+};
+
+app.use(middleware);
+
+app.get("/", handleHome);
+
+app.get("/about-us", handleAbout);
+
+app.get("/contact", handleContact);
+
+app.get("*", handleRedirect);
+
+app.listen(() => console.log(`Listening!`));
+```
+- 정답 : [Day4 Answer](https://codesandbox.io/s/day-four-solution-5zdh2)
