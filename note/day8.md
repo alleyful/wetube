@@ -1,5 +1,5 @@
 
-# Day5 of 42
+# Day8 of 42
 
 > Today's challenge is based on videos #2.8 to #2.11
 
@@ -27,38 +27,71 @@
 ## Lecture Summery
 
 ### Pug
+Express Framework의 Template Engine
 
 <br/>
 
-### app.set()
+### 설치하기
+
+```
+npm install pug
+```
 
 <br/>
 
-### 사용하기
+### 시작하기
 
-### set
-res.send => res.render('filename')
-filename => src/views/filename.pug
+`app.js`
+```js
+var express = require('express');
+var routes = require('./routes/index');
 
-views/layouts/template.pug
--> block content
+var app = express();
 
-#### layout
-views/home.pug
--> 
-extends layouts/template.pug
-block content
-    p hello
-    
-### partials
+// view engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
 
-
+app.use('/', routes);
+```
 
 <br/>
 
+`indes.js`
+```js
+var express = require('express');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/', function (req, res) {
+  res.render('index',
+  {
+    title: 'Hey',
+    message: 'Hello there!'
+  } );
+} );
+
+module.exports = router;
+```
+
 <br/>
+
+`index.pug`
+```jade
+doctype html
+html(lang="en")
+    head
+        title= title
+    body
+        p.greetings#people #{message}
+
+```
+
+<br/>
+
 
 ## Reference
+- [Express Template Engine / Pug](https://cinema4dr12.tistory.com/961)
 
 <br/>
 
