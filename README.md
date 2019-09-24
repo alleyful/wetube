@@ -97,3 +97,18 @@
 - 강의노트: [Day8 Note](./note/day8.md)
 
 <br/>
+
+### Day9
+- 오늘의 강의   
+
+    `#2 ExpressJS`
+    - 2.6 Express Core: Middlewares 
+    - 2.7 Express Core: Middlewares part Two 
+    - 2.8 Express Core: Routing 
+    - 2.9 MVC Pattern part One 
+    - 2.10 MVC Pattern part Two 
+    - 2.11 MVC Pattern part Three
+    - 2.12 Recap 
+- 강의노트: [Day9 Note](./note/day9.md)
+
+<br/>
