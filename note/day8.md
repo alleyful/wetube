@@ -130,4 +130,4 @@ Using the provided blueprint build a server that has the following routes:
 ### 제출:
 - CodeSandbox 템플릿 : [Day8 Boilerplate](https://codesandbox.io/s/express-pug-blueprint-qopyp)
 - 제출 : [Day8 Homework](https://codesandbox.io/s/express-pug-blueprint-czp7f)
-- 정답 : [Day8 Answer]()
+- 정답 : [Day8 Answer](https://codesandbox.io/s/day-six-solution-rcez2)
