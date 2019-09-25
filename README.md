@@ -112,3 +112,16 @@
 - 강의노트: [Day9 Note](./note/day9.md)
 
 <br/>
+
+### Day10
+- 오늘의 강의   
+
+    `#2 ExpressJS`
+    - 2.13 Installing Pug 
+    - 2.14 Layouts with Pug 
+    - 2.15 Partials with Pug 
+    - 2.16 Local Variables in Pug 
+    - 2.17 Template Variables in Pug  
+- 강의노트: [Day10 Note](./note/day10.md)
+
+<br/>
