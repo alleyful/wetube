@@ -126,7 +126,7 @@
 
 <br/>
 
-### Day11
+### Day11~12
 - 오늘의 강의   
 
     `#2 ExpressJS`
@@ -138,6 +138,39 @@
     - 2.23 Join Controller 
     - 2.24 Log In and User Profile Controller 
     - 2.25 More Controllers  
-- 강의노트: [Day11 Note](./note/day11.md)
+- 강의노트: [Day11~12 Note](./note/day11.md)
+
+<br/>
+
+### Day13
+- 오늘의 강의 : 휴일
+
+<br/>
+
+### Day14
+- 오늘의 강의 : 휴일
+
+<br/>
+
+### Day15
+- 오늘의 강의   
+
+    `#2 ExpressJS`
+    - 2.18 Search Controller 
+    - 2.19 Join : Log In HTML 
+    - 2.20 Change Profile HTML 
+    - 2.21 Home Controller 
+    - 2.22 Home Controller part Two 
+    - 2.23 Join Controller 
+    - 2.24 Log In and User Profile Controller 
+    - 2.25 More Controlers 
+    
+    `#3 MongoDB`
+    - 3.0 MongoDB and Mongoose 
+    - 3.1 Connecting to MongoDB 
+    - 3.2 Configuring Dot Env 
+    - 3.3 Video Model 
+    - 3.4 Comment Model 
+- 강의노트: [Day15 Note](./note/day15.md)
 
 <br/>
