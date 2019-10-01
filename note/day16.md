@@ -67,5 +67,5 @@ This is the expected output:
 
 ### 제출:
 - CodeSandbox 템플릿 : [Day16 Boilerplate](https://codesandbox.io/s/day-sixteen-blueprint-psoj7)
-- 제출 : [Day16 Homework](https://codesandbox.io/s/express-controller-blueprint-p0ibw)
+- 제출 : [Day16 Homework](https://codesandbox.io/s/day-sixteen-blueprint-jbbey)
 - 정답 : [Day16 Answer]()
