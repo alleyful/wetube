@@ -174,3 +174,19 @@
 - 강의노트: [Day15 Note](./note/day15.md)
 
 <br/>
+
+### Day16
+- 오늘의 강의   
+
+    `#2 ExpressJS`
+    - 2.18 Search Controller 
+    - 2.19 Join : Log In HTML 
+    - 2.20 Change Profile HTML 
+    - 2.21 Home Controller 
+    - 2.22 Home Controller part Two 
+    - 2.23 Join Controller 
+    - 2.24 Log In and User Profile Controller 
+    - 2.25 More Controllers  
+- 강의노트: [Day16 Note](./note/day16.md)
+
+<br/>
