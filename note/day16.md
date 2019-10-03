@@ -3,8 +3,8 @@
 
 > This challenge is based on videos #2.18 to #2.25:
 
-- 2일간 시청하는 강의: #2.18 to #2.25
-- 2일간 제출하는 과제: 위의 강의를 시청하신 후, 아래 코딩챌린지를 완료하세요.
+- 1일간 시청하는 강의: #2.18 to #2.25
+- 1일간 제출하는 과제: 위의 강의를 시청하신 후, 아래 코딩챌린지를 완료하세요.
 
 <br/>
 
@@ -68,4 +68,4 @@ This is the expected output:
 ### 제출:
 - CodeSandbox 템플릿 : [Day16 Boilerplate](https://codesandbox.io/s/day-sixteen-blueprint-psoj7)
 - 제출 : [Day16 Homework](https://codesandbox.io/s/day-sixteen-blueprint-jbbey)
-- 정답 : [Day16 Answer]()
+- 정답 : [Day16 Answer](https://codesandbox.io/s/day-sixteen-solution-ou0k5)
