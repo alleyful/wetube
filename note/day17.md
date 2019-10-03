@@ -10,7 +10,7 @@
 
 [[노마드 코더] 유튜브 클론 코딩](https://academy.nomadcoders.co/courses/enrolled/435438)
 
-    `2 ExpressJS`
+`2 ExpressJS`
 - 2.0 What is a Server 
 - 2.1 What is Express 
 - 2.2 Installing Express with NPM 
