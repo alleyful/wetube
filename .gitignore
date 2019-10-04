@@ -81,6 +81,8 @@ typings/
 .dynamodb/
 
 package-lock.json
+yarn.lock
 
 *.iml
 .idea
+uploads
