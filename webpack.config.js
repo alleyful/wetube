@@ -12,6 +12,14 @@ const config = {
 	module: {
 		rules: [
 			{
+				test: /\.(js)$/,
+				use: [
+					{
+						loader: "babel-loader"
+					}
+				]
+			},
+			{
 				test: /\.(scss)$/,
 				use: ExtractCSS.extract([
 					{
@@ -37,7 +45,7 @@ const config = {
 		filename: "[name].js"
 	},
 	plugins: [
-		new ExtractCSS("styles.scss")
+		new ExtractCSS("styles.css")
 	]
 
 };
