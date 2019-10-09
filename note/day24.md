@@ -27,6 +27,10 @@
 
 ## Lecture Summery
 
+### PassportJS
+
+### Cookies
+
 <br/>
 
 ---
