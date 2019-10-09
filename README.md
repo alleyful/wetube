@@ -267,3 +267,17 @@
     - [Multer](https://www.npmjs.com/package/multer)
     - [fs](https://nodejs.org/api/fs.html#fs_file_system)     
 - 강의노트: [Day23 Note](./note/day23.md)
+
+<br/>
+
+### Day24
+- 오늘의 강의   
+
+    `#6 User Authentication like a Boss`
+    - 6.0 Introduction to PassportJS 
+    - 6.1 Local Authentication with Passport part One 
+    - 6.2 Local Authentication with Passport part Two 
+    - 6.3 Loggin the User In 
+    - 6.4 Sessions on Express 
+    - 6.5 MongoStore and Middlewares
+- 강의노트: [Day22 Note](./note/day22.md)

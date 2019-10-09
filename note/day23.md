@@ -51,4 +51,4 @@ With the provided blueprint, make an app that has this exact output:
 ### 제출:
 - CodeSandbox 템플릿 : [Day23 Boilerplate](https://codesandbox.io/s/txt2html-iygzj)
 - 제출 : [Day23 Homework](https://codesandbox.io/s/txt2html-cc2ek)
-- 정답 : [Day23 Answer]()
+- 정답 : [Day23 Answer](https://codesandbox.io/s/txt2html-solution-0wb76)
