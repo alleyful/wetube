@@ -4,6 +4,17 @@
 
 ## [v1.0] First Clone Coding
 
+### mogod
+
+### dev:assets
+
+### dev:server
+
+### mongo
+- use we-tube
+- db.users.find({})
+- db.users.remove({})
+
 <br/>
 
 ## [v2.0] Second Clone Coding for WeTube Challenge 
