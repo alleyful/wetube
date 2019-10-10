@@ -4,6 +4,17 @@
 
 ## [v1.0] First Clone Coding
 
+### mogod
+
+### dev:assets
+
+### dev:server
+
+### mongo
+- use we-tube
+- db.users.find({})
+- db.users.remove({})
+
 <br/>
 
 ## [v2.0] Second Clone Coding for WeTube Challenge 
@@ -281,3 +292,13 @@
     - 6.4 Sessions on Express 
     - 6.5 MongoStore and Middlewares
 - 강의노트: [Day22 Note](./note/day22.md)
+
+<br/>
+
+### Day25~26
+- 오늘의 Reference
+    - [request](https://www.npmjs.com/package/request#super-simple-to-use)
+    - [HTTP Status Code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)    
+- 강의노트: [Day25~26 Note](./note/day25.md)
+
+<br/>
