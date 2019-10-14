@@ -136,6 +136,11 @@ input {
   input:focus, input:active {
     outline: none; }
 
+.u-avatar {
+  height: 80px;
+  background-color: #ea232c;
+  border-radius: 50%; }
+
 html,
 body {
   height: 100%; }
@@ -329,6 +334,8 @@ input[type="submit"] {
     .video-detail__container .video__info button {
       width: 100px;
       margin-bottom: 25px; }
+    .video-detail__container .video__info .video__author a {
+      color: #3498db; }
     .video-detail__container .video__info .video__title,
     .video-detail__container .video__info .video__views,
     .video-detail__container .video__info .video__description {
@@ -345,3 +352,23 @@ input[type="submit"] {
     margin-top: 25px; }
     .video-detail__container .video__comments .video__comment-number {
       font-size: 18px; }
+
+.user-profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .user-profile .user-profile__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px; }
+    .user-profile .user-profile__header .profile__username {
+      font-size: 18px;
+      margin-top: 15px; }
+  .user-profile .user-profile__btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .user-profile .user-profile__btns a:not(:last-child) {
+      margin-bottom: 20px; }
