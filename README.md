@@ -302,3 +302,28 @@
 - 강의노트: [Day25~26 Note](./note/day25.md)
 
 <br/>
+
+### Day27
+- 오늘의 강의 : 휴일
+
+<br/>
+
+### Day28
+- 오늘의 강의 : 휴일
+
+<br/>
+
+### Day29~30
+- 오늘의 강의   
+
+    `#8 Custom Video Player`
+    - 8.0 Starting the Video Player 
+    - 8.1 Play Pause Functionallity 
+    - 8.2 Mute Unmute 
+    - 8.3 Enter Fullscreen Exit Fullscreen 
+    - 8.4 Total Time and Current Time 
+    - 8.5 Volume Bar part One 
+    - 8.6 Volume Bar part Two 
+- 강의노트: [Day29~30 Note](./note/day29.md)
+
+<br/>
