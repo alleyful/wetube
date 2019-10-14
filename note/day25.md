@@ -58,4 +58,40 @@ With the provided blueprint, make an app that has this exact output:
 ### 제출:
 - CodeSandbox 템플릿 : [Day25 Boilerplate](https://codesandbox.io/s/is-it-down-boilerplate-ym77u)
 - 제출 : [Day25 Homework](https://codesandbox.io/s/is-it-down-boilerplate-8efg0)
-- 정답 : [Day25 Answer]()
+- 정답 : [Day25 Answer](https://codesandbox.io/s/isitdown-solution-zotpq)
+```javascript
+import express from "express";
+import request from "request";
+
+const app = express();
+
+app.get("/", (req, res) => {
+  const {
+    query: { url }
+  } = req;
+  if (!url) {
+    return res.end();
+  } else {
+    let aUrl = url;
+    if (!aUrl.includes("http://") || !aUrl.includes("http://")) {
+      aUrl = `http://${aUrl}`;
+    }
+    request(aUrl, (error, response) => {
+      if (error) {
+        res.send("Down!");
+      } else if (response) {
+        if (response.statusCode <= 301) {
+          res.send("Up!");
+        } else {
+          res.send("Down!");
+        }
+      } else {
+        res.send("Down!");
+      }
+    });
+  }
+});
+
+// Codesanbox does not need PORT :)
+app.listen(() => console.log(`Listening!`));
+```
