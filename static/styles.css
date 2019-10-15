@@ -311,6 +311,39 @@ input[type="submit"] {
   font-weight: 300;
   margin-bottom: 10px; }
 
+.videoPlayer {
+  position: relative; }
+  .videoPlayer:hover .videoPlayer__controls {
+    opacity: 1; }
+  .videoPlayer video {
+    width: 100%;
+    max-width: 100%; }
+  .videoPlayer .videoPlayer__controls {
+    opacity: 0;
+    transition: opacity 0.4s linear;
+    color: white;
+    position: absolute;
+    z-index: 9;
+    bottom: 5px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 16px; }
+    .videoPlayer .videoPlayer__controls .videoPlayer__column:first-child {
+      display: flex;
+      align-items: center; }
+      .videoPlayer .videoPlayer__controls .videoPlayer__column:first-child span:first-child {
+        margin-right: 10px; }
+    .videoPlayer .videoPlayer__controls .videoPlayer__column:last-child {
+      justify-self: end; }
+    .videoPlayer .videoPlayer__controls .videoPlayer__column:nth-child(2) {
+      justify-self: center; }
+    .videoPlayer .videoPlayer__controls i {
+      font-size: 25px;
+      cursor: pointer; }
+
 .home-videos {
   display: grid;
   grid-template-columns: repeat(6, minmax(150px, 1fr));
