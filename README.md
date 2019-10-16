@@ -327,3 +327,14 @@
 - 강의노트: [Day29~30 Note](./note/day29.md)
 
 <br/>
+
+### Day31~32
+- 오늘의 강의   
+
+    `#9 Recording Video with JavaScript`
+    - 9.0 Getting User Media 
+    - 9.1 Recording Video part One 
+    - 9.2 Recording video part Two  
+- 강의노트: [Day31~32 Note](./note/day31.md)
+
+<br/>
