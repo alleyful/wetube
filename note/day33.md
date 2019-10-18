@@ -10,10 +10,13 @@
 
 [[노마드 코더] 유튜브 클론 코딩](https://academy.nomadcoders.co/courses/enrolled/435438)
 
-`#9 Recording Video with JavaScript`
-- 9.0 Getting User Media 
-- 9.1 Recording Video part One 
-- 9.2 Recording video part Two 
+`#10 API + AJAX`
+- 10.0 API Registering a View part One 
+- 10.1 API Registering a View part Two 
+- 10.2 API Adding a Comment part One 
+- 10.3 API Adding a Comment part Two 
+- 10.4 API Adding a Comment part Three 
+- 10.5 Conclusions 
  
 <br/>
 
