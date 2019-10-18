@@ -62,4 +62,4 @@ Using the blueprint and based on what you saw on the videos, build a voice recor
 ### 제출:
 - CodeSandbox 템플릿 : [Day31 Boilerplate](https://codesandbox.io/s/voice-recording-blueprint-mttsu)
 - 제출 : [Day31 Homework](https://codesandbox.io/s/voice-recording-blueprint-6dl9j)
-- 정답 : [Day31 Answer]()
+- 정답 : [Day31 Answer](https://codesandbox.io/s/voice-recording-solution-5i997)
