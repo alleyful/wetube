@@ -34,16 +34,6 @@
 
 ## Homework 
 
-
- 
-<br/>
-
-### Challenge goals:
-Using the blueprint and based on what you saw on the videos, build a voice recorder.   
-주어진 코드샌드박스를 활용하여 녹음기를 만드세요. 아래 컨디션들을 모두 수행하여야 코딩챌린지를 통과할 수 있습니다.
-
-[![Video Label](http://img.youtube.com/vi/ou9U971nJ-E/0.jpg)](https://youtu.be/ou9U971nJ-E)
-
 <br/>
 
 ### 조건
@@ -67,4 +57,24 @@ Because the URL is not on https, Codesandbox won't let you fetch, so make this e
 ### 제출:
 - CodeSandbox 템플릿 : [Day33 Boilerplate](https://codesandbox.io/s/geo-blueprint-g205i)
 - 제출 : [Day33 Homework](https://codesandbox.io/s/geo-blueprint-fcpt7)
-- 정답 : [Day33 Answer]()
+- 정답 : [Day33 Answer](https://codesandbox.io/s/geo-solution-g643x)
+```jsx harmony
+import "./styles.css";
+
+const API_URL = "http://ip-api.com/json/";
+
+const progress = document.querySelector(".progress");
+
+progress.innerHTML = "Locating you.....";
+
+fetch(API_URL)
+  .then(response => response.json())
+  .then(data => {
+    const { city, country, timezone } = data;
+    progress.innerHTML = `Found you at: ${city}, ${country}, ${timezone}!`;
+  })
+  .catch(e => {
+    console.log(e);
+    progress.innerHTML = "Can't find you!";
+  });
+```

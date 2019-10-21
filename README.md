@@ -338,3 +338,33 @@
 - 강의노트: [Day31~32 Note](./note/day31.md)
 
 <br/>
+
+### Day33
+- 오늘의 강의
+
+    `#10 API + AJAX`
+    - 10.0 API Registering a View part One 
+    - 10.1 API Registering a View part Two 
+    - 10.2 API Adding a Comment part One 
+    - 10.3 API Adding a Comment part Two 
+    - 10.4 API Adding a Comment part Three 
+    - 10.5 Conclusions 
+- 강의노트: [Day33 Note](./note/day33.md)
+
+### Day34
+- 오늘의 강의 : 휴일
+
+<br/>
+
+### Day35
+- 오늘의 강의 : 휴일
+
+<br/>
+
+### Day36
+- 오늘의 Reference
+    - [Fetch](https://developer.mozilla.org/ko/docs/Web/API/Fetch_API)
+    - [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)    
+- 강의노트: [Day36 Note](./note/day36.md)
+
+<br/>
