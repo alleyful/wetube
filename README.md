@@ -368,3 +368,9 @@
 - 강의노트: [Day36 Note](./note/day36.md)
 
 <br/>
+
+### Day37~40
+- 강의노트: [Day37~40 Note](./note/day37.md)
+- Heroku App 링크 : [졸업작품: 유튜브 클론]()
+
+<br/>
