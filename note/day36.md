@@ -56,4 +56,46 @@
 ### 제출:
 - CodeSandbox 템플릿 : [Day36 Boilerplate](https://codesandbox.io/s/coin-tracker-blueprint-orhgh)
 - 제출 : [Day36 Homework](https://codesandbox.io/s/coin-tracker-blueprint-2vf5h)
-- 정답 : [Day36 Answer]()
+- 정답 : [Day36 Answer](https://codesandbox.io/s/coin-tracker-solution-3kzc0)
+```javascript
+import "./styles.css";
+
+const API_URL = "https://api.coinpaprika.com/v1/tickers";
+
+const progress = document.querySelector(".progress"),
+  coinsList = document.querySelector(".coinsList");
+
+progress.innerHTML = "Getting coin prices...";
+
+const paintCoin = coin => {
+  const {
+    name,
+    quotes: {
+      USD: { price }
+    }
+  } = coin;
+  const li = document.createElement("li");
+  li.innerHTML = `${name} / $${price}`;
+  coinsList.appendChild(li);
+};
+
+const paintCoins = coins => {
+  // Dont forget to empty the list first!
+  coinsList.innerHTML = "";
+  coins.forEach(coin => paintCoin(coin));
+};
+
+const getPrices = () => {
+  fetch(API_URL)
+    .then(response => response.json())
+    .then(data => {
+      progress.innerHTML = "";
+      paintCoins(data);
+    })
+    .catch(e => console.log(e));
+};
+
+getPrices();
+setInterval(getPrices, 5000);
+
+```
