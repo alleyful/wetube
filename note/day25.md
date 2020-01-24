@@ -1,4 +1,3 @@
-
 # Day25~26 of 42
 
 > This project is not based on any videos, but I'd recommend you to finish the section #6 and #7
@@ -10,8 +9,6 @@
 <br/>
 
 [[노마드 코더] 유튜브 클론 코딩](https://academy.nomadcoders.co/courses/enrolled/435438)
-
- 
 
 <br/>
 
@@ -26,72 +23,3 @@
 ---
 
 <br/>
-
-## Homework 
-
-
- 
-<br/>
-
-Build a simple API that I can use to check if a website is down.
-
-With the provided blueprint, make an app that has this exact output:
-[![Video Label](http://img.youtube.com/vi/jfmhjo_IjPQ/0.jpg)](https://youtu.be/jfmhjo_IjPQ)
-
-<br/>
-
-
-### 조건
-- When I go to the URL /?url=nomadcoders.co, check if the 'url' query CONTAINS http and if it does not, add it.
-- Using request make a GET request to the website and if the response.statusCode is less or equals than 445 return a "Up!"
-- If the website is down, return a JSON "Down!"
-- The app must behave exactly like the video
-
-<br/>
-
-### Reference Links:
-- [request](https://www.npmjs.com/package/request#super-simple-to-use)
-- [HTTP Status Code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
-
-<br/>
-
-### 제출:
-- CodeSandbox 템플릿 : [Day25 Boilerplate](https://codesandbox.io/s/is-it-down-boilerplate-ym77u)
-- 제출 : [Day25 Homework](https://codesandbox.io/s/is-it-down-boilerplate-8efg0)
-- 정답 : [Day25 Answer](https://codesandbox.io/s/isitdown-solution-zotpq)
-```javascript
-import express from "express";
-import request from "request";
-
-const app = express();
-
-app.get("/", (req, res) => {
-  const {
-    query: { url }
-  } = req;
-  if (!url) {
-    return res.end();
-  } else {
-    let aUrl = url;
-    if (!aUrl.includes("http://") || !aUrl.includes("http://")) {
-      aUrl = `http://${aUrl}`;
-    }
-    request(aUrl, (error, response) => {
-      if (error) {
-        res.send("Down!");
-      } else if (response) {
-        if (response.statusCode <= 301) {
-          res.send("Up!");
-        } else {
-          res.send("Down!");
-        }
-      } else {
-        res.send("Down!");
-      }
-    });
-  }
-});
-
-// Codesanbox does not need PORT :)
-app.listen(() => console.log(`Listening!`));
-```

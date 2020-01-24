@@ -1,4 +1,3 @@
-
 # Day31~32 of 42
 
 > This challenge is based on videos #9.0 to #9.2
@@ -11,10 +10,11 @@
 [[노마드 코더] 유튜브 클론 코딩](https://academy.nomadcoders.co/courses/enrolled/435438)
 
 `#9 Recording Video with JavaScript`
-- 9.0 Getting User Media 
-- 9.1 Recording Video part One 
-- 9.2 Recording video part Two 
- 
+
+- 9.0 Getting User Media
+- 9.1 Recording Video part One
+- 9.2 Recording video part Two
+
 <br/>
 
 ---
@@ -28,38 +28,3 @@
 ---
 
 <br/>
-
-## Homework 
-
-
- 
-<br/>
-
-### Challenge goals:
-Using the blueprint and based on what you saw on the videos, build a voice recorder.   
-주어진 코드샌드박스를 활용하여 녹음기를 만드세요. 아래 컨디션들을 모두 수행하여야 코딩챌린지를 통과할 수 있습니다.
-
-[![Video Label](http://img.youtube.com/vi/ou9U971nJ-E/0.jpg)](https://youtu.be/ou9U971nJ-E)
-
-<br/>
-
-### 조건
-- 아래 주어진 컨디션들을 모두 수행하여야 코딩챌린지를 통과할 수 있습니다.
-- Record / Stop Recording Button. Should start/stop recording
-- Time indicator of the recording's progress in seconds
-- When I stop recording trigger a download the file
-- Don't use Async/Await
-- When saving the audio use `{type:"audio/webm;codecs=opus"}`
-- The app should behave exactly like on the video
-
-<br/>
-
-### Reference
-[MediaRecorder](https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder)
-
-<br/>
-
-### 제출:
-- CodeSandbox 템플릿 : [Day31 Boilerplate](https://codesandbox.io/s/voice-recording-blueprint-mttsu)
-- 제출 : [Day31 Homework](https://codesandbox.io/s/voice-recording-blueprint-6dl9j)
-- 정답 : [Day31 Answer](https://codesandbox.io/s/voice-recording-solution-5i997)
